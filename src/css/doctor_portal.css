@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: #f6f6f6 !important;
+  font-family: "Poppins", Rubik !important;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+}
+
+::-webkit-scrollbar-track {
+  background: #e4e4e4;
+  border-radius: 0px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2744DF;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2744DF;
+  width: 8px !important;
+}
+
+::-webkit-scrollbar {
+  width: 6.6px;
+}
+
+.signup_container .ant-form-item-explain-error {
+  width: 145%;
+}
+
+.nav_menu li {
+  font-size: 15px;
+  font-weight: 500;
+  word-spacing: 8px;
+  border: none;
+  overflow: auto;
+}
+
+
+.ant-layout-sider-children {
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px !important;
+  border-right: 1px solid rgb(235 235 235);
+  overflow: hidden;
+  /* margin-right: 10px; */
+}
+
+.ant-layout-header {
+  padding: 0px !important;
+}
+
+.prescription_form .ant-upload-drag {
+  height: 30% !important;
+}
+
+.ant-modal-footer .ant-btn-primary {
+  background-color: #2744DF;
+}
+
+.ant-form-item-required {
+  font-size: 0.8rem !important;
+  font-weight: 530;
+}
+
+.ant-form-item-required::before {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+}
+
+.ant-picker-ok button {
+  background-color: #2744DF;
+}
+
+
+table thead tr th {
+  color: white !important;
+  /* border-radius: 2px; */
+  background-color: rgb(3, 3, 153) !important;
+}
+
+table tbody tr td {
+
+  /* border-right: 0.1px solid lightgray; */
+  border-bottom: 0.1px insets lightgray !important;
+}
+
+
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 1.3s infinite;
+}
+
+.user_msg_style {
+  text-overflow: ellipsis;
+  width: 185px;
+  overflow: hidden;
+  color: var(--color-3b4149);
+  vertical-align: middle;
+  color: #414146;
+  text-transform: capitalize;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  font-size: 13px;
+}
+
+.react-emoji {
+  width: 93% !important;
+  /* background-color: darkgray; */
+}
+
+.rounded-bl-none {
+  border-radius: 7px 0px 6px 6px;
+}
+
+.rounded-br-none {
+  border-radius: 0px 7px 6px 6px;
+}
+
+.react-input-emoji--container {
+  border-radius: 15px !important;
+  border: 1px solid rgb(204, 204, 204) !important;
+
+}
+
+.userList_style .ant-tabs .ant-tabs-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #f6f6f6 !important;
+  border-radius: 10px 10px 0px 0px;
+  padding: 2px 34px;
+  margin-bottom: 5px;
+
+}
+
+
+.react-emoji-picker--wrapper {
+  position: fixed !important;
+  z-index: 3;
+  bottom: 88px !important;
+  right: 30px;
+}
